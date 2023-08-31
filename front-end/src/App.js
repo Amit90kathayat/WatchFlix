@@ -8,6 +8,7 @@ import Documentaries from "./components/Documentaries/Documentaries";
 import Categories from "./components/Categories/Categories";
 import Movie from "./Movie";
 import ScrollToTop from "./scroll";
+import Subcription from "./Subcription";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="/Documentaries" element={<Documentaries />} />
             <Route path="/Categories" element={<Categories />} />
             <Route path="/Movie" element={<Movie />} />
+            <Route path="/Subcription" element={<Subcription />} />
           </Routes>
           <Footer />
         </ScrollToTop>

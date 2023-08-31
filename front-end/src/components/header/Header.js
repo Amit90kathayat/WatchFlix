@@ -11,6 +11,7 @@ function Header() {
         <NavLink to="/Tvseries">TV Series</NavLink>
         <NavLink to="/Documentaries">Documentaries</NavLink>
         <NavLink to="/Categories">Categories</NavLink>
+        <NavLink to="/Subcription">Subcription</NavLink>
       </div>
       <div className="headLast">
         <img src="../images/search.png" alt="logo" />
